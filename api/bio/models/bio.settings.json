@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bios",
+  "info": {
+    "name": "Bio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
